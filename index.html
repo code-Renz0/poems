@@ -10,8 +10,8 @@
 
       .container {
         display: grid;
-        grid-template-columns: 2fr 3fr;
-        grid-auto-rows: 1fr 1fr;
+        grid-template-columns:;
+        grid-template-rows: auto;
         gap: 10px;
       }
       body {
@@ -21,7 +21,7 @@
         padding: 20px;
       }
       .friend {
-        background-color: blanchedalmond;
+        background-color: #47663b;
         color: brown;
       }
       .crush {
@@ -38,15 +38,35 @@
       footer {
         text-transform: uppercase;
       }
+
       .title {
         position: relative;
       }
+      
+      .diary{
+        background-color: #5db996;
+      }
+.obsession{
+  color: rgb(3, 10, 73);
+  background-color:#605ea1;
+
+}
+
+.friend{
+  background-color: #47663b;
+  color: yellow;
+}
+
+.fantacy{
+background-color: #fb4141;
+}
+
     </style>
   </head>
   <body>
     <h1 class="title">lorenzo's Poetry</h1>
-    <div class="container">
-      <div>
+    <div class="container " >
+      <div class="diary">
         Do you keep a diary?<br />
         I do, not the regular kind (like the ones with dates and stuff that
         talks about one's day)but a different kind.<br />
@@ -117,7 +137,7 @@
         <footer>myself</footer>
       </div>
 
-      <div>
+      <div class="friend">
         <p>
           Frendship!<br />
           An abstract noun, as volatile as it is unseen, a bond stronger than
@@ -135,7 +155,7 @@
         <footer>strange</footer>
       </div>
 
-      <div>
+      <div class="fantacy">
         <p>
           What if the day was night and the night was day and all that hid came
           out to play? <br />
